@@ -1,8 +1,27 @@
 # Python
 .venv/
+venv/
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyd
+*.so
+*.egg-info/
+.build/
+dist/
+.eggs/
+.tox/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
 
-# OS
+# Editors/OS
+.vscode/
+.idea/
 .DS_Store
 Thumbs.db
+
+# Env files (avoid committing secrets)
+.env
+.env.*
