@@ -25,3 +25,32 @@ Thumbs.db
 # Env files (avoid committing secrets)
 .env
 .env.*
+
+# Python
+__pycache__/
+*.pyc
+
+# Envs & secrets
+.venv/
+.env
+.env.*.local
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Experiments & logs
+runs/
+wandb/
+lightning_logs/
+outputs/
+checkpoints/
+
+# Data / models (keep out of git for now)
+data/
+models/
+
+# Caches
+.cache/
+huggingface/
+.hf_cache/
+transformers_cache/
