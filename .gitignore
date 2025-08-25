@@ -54,3 +54,33 @@ models/
 huggingface/
 .hf_cache/
 transformers_cache/
+
+# Python
+__pycache__/
+*.pyc
+
+# Envs & secrets
+.venv/
+.env
+.env.*.local
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Experiments & logs
+runs/
+logs/
+lightning_logs/
+wandb/
+outputs/
+
+# Data / models / checkpoints (tracked by DVC, not by Git)
+data/
+models/
+checkpoints/
+
+# Caches
+.cache/
+huggingface/
+.hf_cache/
+transformers_cache/
