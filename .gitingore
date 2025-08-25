@@ -1,0 +1,17 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# LM Studio caches / big models (just in case)
+*.gguf
+*.bin
+
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# Logs/artifacts (we DO keep these)
+# (commented out intentionally so they are committed)
+# logs/
+# out/

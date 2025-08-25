@@ -1,0 +1,10 @@
+{
+  "API_BASE": "http://127.0.0.1:1234/v1",
+  "MODEL_ID": "qwen/qwen3-4b-2507",
+  "PLANNER_MODEL_ID": "qwen/qwen3-4b-2507",
+  "WORKER_MODEL_ID": "qwen/qwen3-4b-2507",
+  "TIMEOUT_SEC": 90,
+  "TEMPERATURE": 0.2,
+  "MAX_TOKENS": 512,
+  "RETRY": { "tries": 3, "backoff_sec": 2.0 }
+}
